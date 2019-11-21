@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 992px) {
+  body {
+   
+  }
+}
+#imgs{
+	height:900px;
+}
+#innimg{
+	height:500px;
+	width:auto;
+	margin-top:2.5%;
+	border-radius:10px 10px 10px 10px;
+}
+#temps{
+	height:450px;
+}
+#one, #two, #three{
+	margin-bottom:2%;
+}
+.inndivs{
+	height:550px;
+	width:100%;
+	border-radius:10px 10px 10px 10px;
+}
+.innspecs{
+	margin-top:3%;
+}
+.carimg{
+	width:100%;
+}
+.resimg{
+	width:100%;
+	height:400px;
+}
+.carousel-inner{
+	margin-top:2%;
+	width:100%;
+	max-height: 900px !important;
+}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+.lagyan {
+	position: relative;
+	width: 100%;
+}		
+.imahe {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.lagyan:hover .image {
+	opacity: 0.3;
+}
+.lagyan:hover .middle {
+	opacity: 1;
+}
+.text {
+	background-color: #325F87;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+.comsec{
+	margin-top:3%;
+	margin-left:-6%;
+}
+.vl {
+  border-left: 2px solid red;
+  margin-top:5%;
+  height: 400px;
+}
